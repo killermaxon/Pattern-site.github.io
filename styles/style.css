@@ -87,6 +87,10 @@ a:hover {
   text-decoration: none;
 }
 
+p {
+  color: black;
+}
+
 h2,
 h3,
 h4,
