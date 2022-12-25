@@ -86,3 +86,23 @@ a:hover {
   color: #80449abf;
   text-decoration: none;
 }
+
+h2,
+h3,
+h4,
+h5 {
+  color: #133945;
+  text-align: center;
+}
+
+#content_header {
+
+  text-align: left;
+}
+
+#content {
+
+  list-style-position: inside;
+  text-align: left;
+  font-style: italic;
+}
