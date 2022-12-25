@@ -1,6 +1,6 @@
 html {
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -25,7 +25,7 @@ img {
 }
 
 .three h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   position: relative;
   color: #76b5c5;
   background: #80449abf;
