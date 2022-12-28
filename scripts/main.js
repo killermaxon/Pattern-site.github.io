@@ -6,14 +6,14 @@ var myImage = document.querySelector('img');
 function setUserName() {
 	var myName = prompt('Please enter your name.');
 	localStorage.setItem('name', myName);
-	myHeading.textContent = 'Welcome you, ' + myName;
+	myHeading.textContent = 'Добрый день, ' + myName;
 }
 
 if (!localStorage.getItem('name')) {
 	setUserName();
 } else {
 	var storedName = localStorage.getItem('name');
-	myHeading.textContent = 'Welcome you, ' + storedName;
+	myHeading.textContent = 'Добрый день, ' + storedName;
 }
 
 myButton.onclick = function () {
